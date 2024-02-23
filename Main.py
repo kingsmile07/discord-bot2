@@ -1,5 +1,3 @@
-# 作者：0x8848
-# DIS：andywu#8888
 # 时间:2022/3/1 20:49
 import hashlib
 import os
