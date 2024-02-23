@@ -1,0 +1,44 @@
+{
+  "授权账号": {
+    "kingsmile": "",
+    "janner": "",
+    "dannywu": ""
+  },
+  "代理设置": [
+    "http://127.0.0.1:7890"
+  ],
+  "提词专用": {
+    "RTA公共聊天室": "https://discord.com/channels/892778246431703050/903570921317621761",
+    "银河中文": "https://discord.com/channels/824767871183355954/825492827462828042",
+    "银河英文": "https://discord.com/channels/824767871183355954/875599853261053993",
+    "鹰眼加密投资": "https://discord.com/channels/818351761005346826/818354686943559682"
+  },
+  "关键字表": [
+    "airdrop",
+    "Airdrop",
+    "poap",
+    "reward",
+    "TEST",
+    "early",
+    "测试",
+    "白名单",
+    "whitelist",
+    "WhiteList",
+    "Reward",
+    "丢地址",
+    "空投",
+    "奖励",
+    "早期项目",
+    "dexguru",
+    "测试网教程",
+    "andywu",
+    "NFT",
+    "填表",
+    "fill",
+    "Fill",
+    "rss3"
+  ],
+  "社区公告": {
+    "Metaline中文": "https://discord.com/channels/926078973291679754/936132220857483264"
+  }
+}

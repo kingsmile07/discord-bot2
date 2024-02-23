@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>984</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>984</width>
+    <height>640</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>984</width>
+    <height>640</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>昱峰中文Discord Tools V8.0 |微信：Yufeng0736520</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>image/logo1.ico</normaloff>image/logo1.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="but_cls_logtotext_2">
+   <property name="geometry">
+    <rect>
+     <x>925</x>
+     <y>590</y>
+     <width>25</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_save_logtotext">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>895</x>
+     <y>590</y>
+     <width>25</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>105</y>
+     <width>79</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关键字信息--&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_cls_kwsms">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>925</x>
+     <y>320</y>
+     <width>24</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>CL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_wallet">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>305</y>
+     <width>50</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>钱包</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="print_1">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>100</y>
+     <width>475</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="print_2">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>5</y>
+     <width>491</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chk_translate">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>330</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>中--&gt;英</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chk_taici">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>310</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>勾选是从提取列表取台词发送，不勾选是自定义台词</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>取词模式</string>
+   </property>
+   <property name="tristate">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>310</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>打开自定义台词本，没有就创建一个。</string>
+   </property>
+   <property name="text">
+    <string>词</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="print_4">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>220</y>
+     <width>475</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_daiban">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>330</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>待</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter_3">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>360</y>
+     <width>971</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="text">
+     <string>激活频道-&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbox_activation">
+    <property name="placeholderText">
+     <string>频道列表</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_send">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string>循环发送信息到选择列表，有两种模式，自定义台词和提取台词</string>
+    </property>
+    <property name="text">
+     <string>群发[run]</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/发送_send.png</normaloff>image/发送_send.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_double_cha">
+    <property name="text">
+     <string>交互[run]</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/邮件符号_at-sign.png</normaloff>image/邮件符号_at-sign.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_monitor">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string>无限循环监控选择频道列表中所有信息，自动过滤关键字</string>
+    </property>
+    <property name="text">
+     <string>监控[run]</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/眼睛_eyes.png</normaloff>image/眼睛_eyes.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_monitor2">
+    <property name="text">
+     <string>监控[run]</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/眼睛_eyes.png</normaloff>image/眼睛_eyes.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_sign">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string>给选择的频道列表发送一条信息，不是循环发，这样更方便。</string>
+    </property>
+    <property name="text">
+     <string>签到</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/点击_click-tap.png</normaloff>image/点击_click-tap.png</iconset>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QLineEdit" name="input_shortcut">
+     <property name="toolTip">
+      <string>双击聊天内容链接中的频道id，输入内容可以发送信息</string>
+     </property>
+     <property name="placeholderText">
+      <string>输入内容可以发信息到频道</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_shortcut">
+     <property name="toolTip">
+      <string>右侧输入内容，回车发送到选定的频道。内容记录里面双击频道id可以选定发送的频道</string>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>快捷回复</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/信息_message.png</normaloff>image/信息_message.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_exit">
+     <property name="text">
+      <string>退出</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/退出_logout.png</normaloff>image/退出_logout.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="but_more">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="text">
+      <string>翻译</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/翻译_translation.png</normaloff>image/翻译_translation.png</iconset>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>226</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>间隔[秒]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_setp">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>发送信息间隔的时间</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>10000</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>时效[时]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_time">
+       <property name="toolTip">
+        <string>监控模式提取信息的时效</string>
+       </property>
+       <property name="maximum">
+        <number>999999</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>信息条数</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_numb">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>监控模式有效提取频道的信息数，最大99</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>99</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>提词频道</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_quci">
+       <property name="toolTip">
+        <string>选择一个频道作为发送消息时提取内容的频道</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QCheckBox" name="chk_id">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>310</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>单号模式</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>10</y>
+     <width>413</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QPushButton" name="but_add_config">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>55</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>55</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>添加后自动保存</string>
+      </property>
+      <property name="text">
+       <string>添加</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QSplitter" name="splitter_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QLabel" name="label_key">
+         <property name="text">
+          <string>频道名称</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="text_key">
+         <property name="placeholderText">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QLabel" name="label_value">
+         <property name="text">
+          <string>频道链接</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="text_value"/>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QComboBox" name="cmbox_config">
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="toolTip">
+         <string>选择需要添加的频道列表</string>
+        </property>
+        <property name="placeholderText">
+         <string>选择类别</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>社区公告</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>社区聊天</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>优质项目</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>普通项目</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>作业频道</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OG频道</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>邀请分享</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>垃圾广告</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>备用频道</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>提词专用</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>image/星星_star.png</normaloff>image/星星_star.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>关键字表</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>image/星星_star.png</normaloff>image/星星_star.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>授权账号</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>image/星星_star.png</normaloff>image/星星_star.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>代理设置</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>image/星星_star.png</normaloff>image/星星_star.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="but_add_config_key">
+        <property name="toolTip">
+         <string>临时增加一个配置类别，便于频道分类</string>
+        </property>
+        <property name="text">
+         <string>增加类别</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>image/添加列表_list-add.png</normaloff>image/添加列表_list-add.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>70</y>
+     <width>413</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="2">
+     <widget class="QPushButton" name="but_del_dict">
+      <property name="text">
+       <string>删除配置</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/删除_delete.png</normaloff>image/删除_delete.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QComboBox" name="cmbox_revise">
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>这里可以删除关键字和代理</string>
+      </property>
+      <property name="placeholderText">
+       <string>修改字典</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="but_save_config">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>保存配置</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/保存_save.png</normaloff>image/保存_save.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="but_del_key1">
+      <property name="toolTip">
+       <string>清空关注频道列表</string>
+      </property>
+      <property name="text">
+       <string>删除频道</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/清除_clear.png</normaloff>image/清除_clear.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="but_red_config">
+      <property name="text">
+       <string>读取配置</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/设置配置_setting-config.png</normaloff>image/设置配置_setting-config.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>74</y>
+     <width>55</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>10</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>image/logo2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>splitter_4</zorder>
+  <zorder>splitter_3</zorder>
+  <zorder>chk_taici</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>label</zorder>
+  <zorder>but_wallet</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>print_1</zorder>
+  <zorder>print_2</zorder>
+  <zorder>chk_translate</zorder>
+  <zorder>but_cls_logtotext_2</zorder>
+  <zorder>but_save_logtotext</zorder>
+  <zorder>but_cls_kwsms</zorder>
+  <zorder>print_4</zorder>
+  <zorder>but_daiban</zorder>
+  <zorder>chk_id</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cmbox_config</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>label_key</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>122</x>
+     <y>25</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_shortcut</sender>
+   <signal>returnPressed()</signal>
+   <receiver>but_shortcut</receiver>
+   <slot>animateClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>711</x>
+     <y>285</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>811</x>
+     <y>279</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>text_value</sender>
+   <signal>returnPressed()</signal>
+   <receiver>but_add_config</receiver>
+   <slot>animateClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>269</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>52</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>text_key</sender>
+   <signal>returnPressed()</signal>
+   <receiver>but_add_config</receiver>
+   <slot>animateClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>52</x>
+     <y>54</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>2</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>2</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
